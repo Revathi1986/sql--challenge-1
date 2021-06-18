@@ -1,0 +1,8 @@
+CREATE table titles (
+	title_id VARCHAR NOT NULL,
+	title VARCHAR(300) NOT NULL,
+	CONSTRAINT "pk_titles" PRIMARY KEY ("title_id")
+
+);
+
+SELECT * from titles
